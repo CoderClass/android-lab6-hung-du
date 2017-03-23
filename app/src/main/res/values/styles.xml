@@ -92,7 +92,7 @@
     </style>
 
     <style name="text_subheader_yellow">
-        <item name="android:textColor">#fff</item>
+        <item name="android:textColor">#000</item>
         <item name="android:textSize">@dimen/text_subheader_text_size</item>
         <item name="android:shadowDy">1.0</item>
         <item name="android:shadowRadius">1</item>
