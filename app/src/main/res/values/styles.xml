@@ -85,5 +85,59 @@
     <!-- Customize YOUR_CUSTOM_THEME Styles -->
     <!-- Define your own styles below. -->
     <!-- =============================================================== -->
+    <style name="page_background_yellow">
+        <item name="android:background">@drawable/yellow_green_gradient_background</item>
+        <item name="android:paddingLeft">@dimen/activity_horizontal_padding</item>
+        <item name="android:paddingRight">@dimen/activity_horizontal_padding</item>
+    </style>
 
+    <style name="text_subheader_yellow">
+        <item name="android:textColor">#fff</item>
+        <item name="android:textSize">@dimen/text_subheader_text_size</item>
+        <item name="android:shadowDy">1.0</item>
+        <item name="android:shadowRadius">1</item>
+        <item name="android:shadowColor">#9e9e9e</item>
+    </style>
+
+    <style name="text_large_yellow">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">@dimen/text_large_text_size</item>
+        <item name="android:shadowDy">1.0</item>
+        <item name="android:shadowRadius">1</item>
+        <item name="android:shadowColor">#9e9e9e</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_marginTop">@dimen/text_large_margin_top</item>
+    </style>
+
+    <style name="text_regular_yellow">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">@dimen/text_regular_text_size</item>
+    </style>
+
+    <style name="yellow_background_yellow">
+        <item name="android:background">@android:drawable/dialog_holo_light_frame</item>
+        <item name="android:layout_marginTop">@dimen/card_margin_top</item>
+        <item name="android:layout_marginBottom">@dimen/card_margin_top</item>
+        <item name="android:padding">@dimen/white_background_padding</item>
+    </style>
+
+    <style name="button_yellow" parent="text_large_yellow">
+        <item name="android:background">@drawable/button_yellow</item>
+        <item name="android:layout_marginTop">@dimen/view_margin</item>
+    </style>
+
+    <style name="spinner_yellow">
+        <item name="android:background">@drawable/spinner_wh_background</item>
+    </style>
+
+    <style name="horizontal_line_yellow">
+        <item name="android:background">#0091ea</item>
+    </style>
+
+    <color name="actionbar_bg_yellow">#607d8b</color>
+
+    <style name="action_bar_yellow" parent="@style/Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+        <item name="android:background">@color/actionbar_bg_yellow</item>
+        <item name="background">@color/actionbar_bg_yellow</item>
+    </style>
 </resources>

@@ -1,20 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources xmlns:android="http://schemas.android.com/apk/res/android">
+<resources>
 
-    <!-- Check the "res/values/attrs.xml" file for where these style names are first defined.  -->
-    <style name="Theme.Material_Light" parent="Theme.AppCompat.Light">
-        <item name="pageBackground">@style/page_background_wh</item>
-        <item name="textSubheader">@style/text_subheader_wh</item>
-        <item name="textLarge">@style/text_large_wh</item>
-        <item name="textRegular">@style/text_regular_wh</item>
-        <item name="whiteBackground">@style/white_background_wh</item>
-        <item name="button">@style/button_wh</item>
-        <item name="spinner">@style/spinner_wh</item>
-        <item name="actionBarStyle">@style/action_bar_wh</item>
-    </style>
+  <!-- Check the "res/values/attrs.xml" file for where these style names are first defined.  -->
+  <style name="Theme.Material_Light" parent="Theme.AppCompat.Light">
+    <item name="pageBackground">@style/page_background_wh</item>
+    <item name="textSubheader">@style/text_subheader_wh</item>
+    <item name="textLarge">@style/text_large_wh</item>
+    <item name="textRegular">@style/text_regular_wh</item>
+    <item name="whiteBackground">@style/white_background_wh</item>
+    <item name="button">@style/button_wh</item>
+    <item name="spinner">@style/spinner_wh</item>
+    <item name="actionBarStyle">@style/action_bar_wh</item>
+  </style>
 
-    <style name="Theme.YOUR_CUSTOM_THEME" parent="Theme.AppCompat.Light">
-        <!-- Define styles for YOUR_CUSTOM_THEME here. -->
-    </style>
+  <style name="Theme.YOUR_CUSTOM_THEME" parent="Theme.AppCompat.Light">
+    <!-- Define styles for YOUR_CUSTOM_THEME here. -->
+    <item name="pageBackground">@style/page_background_yellow</item>
+    <item name="textSubheader">@style/text_subheader_yellow</item>
+    <item name="textLarge">@style/text_large_yellow</item>
+    <item name="textRegular">@style/text_regular_yellow</item>
+    <item name="whiteBackground">@style/yellow_background_yellow</item>
+    <item name="button">@style/button_yellow</item>
+    <item name="spinner">@style/spinner_yellow</item>
+    <item name="actionBarStyle">@style/action_bar_yellow</item>
+  </style>
 
 </resources>
